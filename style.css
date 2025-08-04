@@ -1,11 +1,24 @@
 /* Add a black background color to the top navigation */
-.topnav {
- background-color: #FFFFFF;
+.navigation-bar {
+ width: 100%;
+ height: 80px;
+ background-color: white;
   overflow: hidden;
 }
 
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px
+}
+
+
 /* Style the links inside the navigation bar */
-.topnav a {
+.navigation-bar a {
   float: right;
   color: #4e91fd;
   text-align: center;
@@ -14,24 +27,15 @@
   font-size: 16px;
 }
 
-/* Make logo in-line */
-.navigation-bar ul {
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  display:inline-block;
-  vertical-align:left;
-}
-
 
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.navigation-bar a:hover {
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.navigation-bar a.active {
   background-color: #04AA6D;
   color: white;
 }
