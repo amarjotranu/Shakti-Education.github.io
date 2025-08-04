@@ -47,7 +47,7 @@
 .hero-image {
   width: 100%;
   justify-content: center; /* center horizontally */
-  margin-top: 200px;           /* directly below navbar */
+  margin-top: 300px;           /* directly below navbar */
    /* Set a specific height */
   height: 50%;
 
