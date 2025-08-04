@@ -18,7 +18,7 @@
   height: 100px;
   width: 100%;
   background-color: white;
-  padding: 0 40px;                 /* Optional spacing inside the nav */
+  padding: 0 20px;                 /* Optional spacing inside the nav */
 }
 
 
@@ -40,7 +40,6 @@
 
 /* Add a color to the active/current link */
 .navigation-bar a.active {
-  background-color: #04AA6D;
-  color: white;
+  color: black;
 }
 
