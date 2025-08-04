@@ -51,7 +51,6 @@
   display: flex;                 /* Make it a flex container */
   justify-content: center;       /* Center image horizontally */
   align-items: center;           /* Center image vertically */
-  background-color: #eee;        /* Just for visibility */
 }
 
 .hero-image img {
