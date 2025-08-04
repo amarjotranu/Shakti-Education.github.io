@@ -50,12 +50,14 @@
   margin-top: 300px;           /* directly below navbar */
    /* Set a specific height */
   height: 50%;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;                 /* Make it a flex container */
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically (optional) */
 }
 
 .hero-image img {
