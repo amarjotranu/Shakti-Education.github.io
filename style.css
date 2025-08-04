@@ -47,7 +47,6 @@
 .hero-image {
   width: 100%;
   margin-top: 300px;           /* directly below navbar */
-   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
   position: relative;
@@ -58,6 +57,6 @@
 
 .hero-image img {
   max-width: 100%;         /* keep it responsive */
-  height: auto;
+  height: 500px;
   display: block;
 }
