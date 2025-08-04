@@ -14,6 +14,17 @@
   font-size: 16px;
 }
 
+/* Make logo in-line */
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+
+
 /* Change the color of links on hover */
 .topnav a:hover {
   color: black;
