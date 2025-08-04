@@ -19,12 +19,12 @@
 
 /* Style the links inside the navigation bar */
 .navigation-bar a {
-  float: right;
+  float: center;
   color: #4e91fd;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 30px;
   margin-right: 50px;
   margin-top: 30px
 }
