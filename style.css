@@ -46,13 +46,13 @@
 
 .hero-image {
   width: 100%;
-  height: auto;
-  overflow: hidden;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  margin-top: 0;           /* directly below navbar */
 }
 
 .hero-image img {
-  width: 100%;
+  max-width: 100%;         /* keep it responsive */
   height: auto;
   display: block;
 }
-
