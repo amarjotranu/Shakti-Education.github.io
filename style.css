@@ -43,3 +43,16 @@
   color: black;
 }
 
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
