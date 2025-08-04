@@ -19,6 +19,7 @@
 
 /* Style the links inside the navigation bar */
 .navigation-bar a {
+  vertical-align: top;
   float: center;
   color: #4e91fd;
   text-align: right;
