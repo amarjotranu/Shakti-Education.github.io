@@ -46,17 +46,16 @@
 
 .hero-image {
   width: 100%;
-  margin-top: 300px;           /* directly below navbar */
-  height: 50%;
-  /* Position and center the image to scale nicely on all screens */
-  position: relative;
+  height: 500px;                 /* Set a visible height */
+  margin-top: 100px;             /* Push it below the navbar if needed */
   display: flex;                 /* Make it a flex container */
-  justify-content: center;      /* Center horizontally */
-  align-items: center;          /* Center vertically (optional) */
+  justify-content: center;       /* Center image horizontally */
+  align-items: center;           /* Center image vertically */
+  background-color: #eee;        /* Just for visibility */
 }
 
 .hero-image img {
-  max-width: 100%;         /* keep it responsive */
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
