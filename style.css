@@ -47,14 +47,14 @@
 .hero-image {
   width: 100%;
   height: 200px;                 /* Set a visible height */
-  margin-top: 300px;             /* Push it below the navbar if needed */
+  margin-top: 400px;             /* Push it below the navbar if needed */
   justify-content: center;       /* Center image horizontally */
   align-items: center;           /* Center image vertically */
-  object-fit: cover;
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
