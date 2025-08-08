@@ -54,8 +54,8 @@ html, body {
 
 .hero-image {
   width: 100%;
-  height: 200px;                 /* Set a visible height */         /* Push it below the navbar if needed */
-  padding-top: 100px
+  height: 100px;                 /* Set a visible height */         /* Push it below the navbar if needed */
+  padding-top: 50px
   justify-content: center;       /* Center image horizontally */
   align-items: center;           /* Center image vertically */
   object-fit: cover;
