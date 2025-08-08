@@ -22,7 +22,8 @@ html, body {
   height: 100px;
   width: 100%;
   background-color: white;
-  padding: 0 20px;                 /* Optional spacing inside the nav */
+  padding: 0 20px;/* Optional spacing inside the nav */
+  position: fixed; 
 }
 
 
@@ -51,8 +52,8 @@ html, body {
 
 .hero-image {
   width: 100%;
-  height: 200px;                 /* Set a visible height */
-  margin-top: 200px;             /* Push it below the navbar if needed */
+  height: 200px;                 /* Set a visible height */         /* Push it below the navbar if needed */
+  padding-top: 100px
   justify-content: center;       /* Center image horizontally */
   align-items: center;           /* Center image vertically */
 }
