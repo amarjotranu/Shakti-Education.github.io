@@ -58,11 +58,11 @@ html, body {
   padding-top: 100px
   justify-content: center;       /* Center image horizontally */
   align-items: center;           /* Center image vertically */
+  object-fit: cover;
 }
 
 .hero-image img {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
