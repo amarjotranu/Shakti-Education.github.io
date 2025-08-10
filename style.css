@@ -54,7 +54,7 @@ html, body {
 /* Hero image */
 .hero-image {
   width: 100%;      /* Full viewport height */
-  height: 50%;
+  height: 30%;
   overflow: hidden;    /* Hide parts that don't fit */
 }
 
