@@ -4,6 +4,18 @@ html, body {
   padding: 0;
 }
 
+.navigation-bar {
+  display: fixed;
+  justify-content: space-between;  /* Logo left, links right */
+  align-items: center;             /* Align vertically */
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  padding: 0 20px;/* Optional spacing inside the nav */
+  position: fixed; 
+  padding-top: 0px;
+}
+
 .logo {
   width: 150px;
   height: auto;
@@ -13,19 +25,6 @@ html, body {
 .nav-links {
   display: flex;
   gap: 40px;                       /* Space between links */
-}
-
-
-.navigation-bar {
-  display: flex;
-  justify-content: space-between;  /* Logo left, links right */
-  align-items: center;             /* Align vertically */
-  height: 100px;
-  width: 100%;
-  background-color: white;
-  padding: 0 20px;/* Optional spacing inside the nav */
-  position: fixed; 
-  padding-top: 0px;
 }
 
 
@@ -42,30 +41,24 @@ html, body {
 }
 
 
-
 /* Change the color of links on hover */
 .navigation-bar a:hover {
   color: black;
 }
 
-/* Add a color to the active/current link */
 .navigation-bar a.active {
   color: black;
 }
 
 
+/* Hero image */
 .hero-image {
   width: 100%;
-  height: 300px;                 /* Set a visible height */         /* Push it below the navbar if needed */
-  padding-top: 50px;
-  position: relative;
-  justify-content: center;       /* Center image horizontally */
-  align-items: center;           /* Center image vertically */
-  object-fit: cover;
 }
 
 .hero-image img {
   width: 100%;
-  height: 300px;
+  height: 300px;     /* Adjust height as needed */
+  object-fit: cover; /* Crop nicely without stretching */
   display: block;
 }
