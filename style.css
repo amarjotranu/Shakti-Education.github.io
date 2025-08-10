@@ -54,7 +54,6 @@ html, body {
 /* Hero image */
 .hero-image {
   width: 100%;
-  margin-top: 300px;
 }
 
 .hero-image img {
@@ -62,4 +61,5 @@ html, body {
   height: 600px;     /* Adjust height as needed */
   object-fit: cover; /* Crop nicely without stretching */
   display: block;
+  margin-top: 300px;
 }
