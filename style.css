@@ -54,6 +54,7 @@ html, body {
 /* Hero image */
 .hero-image {
   width: 100%;
+  margin-top: 300px;
 }
 
 .hero-image img {
