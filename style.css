@@ -24,7 +24,7 @@ html, body {
 /* Wrapper for the links */
 .nav-links {
   display: flex;
-  gap: 40px;                       /* Space between links */
+  gap: 10px;                       /* Space between links */
 }
 
 
