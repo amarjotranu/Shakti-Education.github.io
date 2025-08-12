@@ -5,7 +5,7 @@ html, body {
 }
 
 .navigation-bar {
-  display: relative;
+  display: flex;
   justify-content: space-between;  /* Logo left, links right */
   align-items: center;             /* Align vertically */
   height: 100px;
